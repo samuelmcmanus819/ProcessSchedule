@@ -33,7 +33,7 @@ namespace ProcessSchedule
                     TimeSpan.FromSeconds(values[((i * 3) + 3)]);
 
             }
-
+            
             Process currentProc, oldProc;
             List<Process> samePrioProcesses = new List<Process>
             {
